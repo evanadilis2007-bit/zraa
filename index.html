@@ -1,632 +1,728 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Evan Ezra Adilis — Network & CCTV Technician</title>
-<meta name="description" content="Portofolio Evan Ezra Adilis - Teknisi Jaringan & CCTV berpengalaman di Sulawesi Utara">
-<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Evan Ezra Adilis — Network & CCTV Technician</title>
+  <meta name="description"
+    content="Portofolio Evan Ezra Adilis - Teknisi Jaringan & CCTV berpengalaman di Sulawesi Utara">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<!-- MOUSE GLOW EFFECT -->
-<div id="mouse-glow"></div>
+  <!-- MOUSE GLOW EFFECT -->
+  <div id="mouse-glow"></div>
 
-<!-- PRELOADER -->
-<div id="preloader">
-  <div class="loader-ring"></div>
-  <div class="loader-text">INITIALIZING SYSTEM...</div>
-</div>
-
-<!-- SCROLL PROGRESS -->
-<div id="scroll-progress"></div>
-
-<!-- NAV -->
-<nav id="navbar">
-  <div class="nav-logo">E.E.A <span style="font-size: 0.6em; color: var(--text-dim);">// SYS_ADMIN</span></div>
-  <button class="hamburger" id="hamburger" aria-label="Menu">
-    <span></span><span></span><span></span>
-  </button>
-  <ul class="nav-links" id="navLinks">
-    <li><a href="#about" class="nav-link">About</a></li>
-    <li><a href="#skills" class="nav-link">Skills</a></li>
-    <li><a href="#experience" class="nav-link">Experience</a></li>
-    <li><a href="#certs" class="nav-link">Certifications</a></li>
-    <li><a href="#gallery" class="nav-link">Gallery</a></li>
-    <li><a href="#contact" class="nav-link">Contact</a></li>
-  </ul>
-</nav>
-
-<!-- HERO -->
-<section id="hero">
-  <canvas id="hero-canvas"></canvas>
-  <div class="hero-bg-ring"></div>
-  <div class="hero-bg-ring"></div>
-  <div class="hero-bg-ring"></div>
-  <div class="hero-content">
-    <span class="hero-tag">Network &amp; CCTV Technician</span>
-    <h1 class="hero-name">Evan<br><span>Ezra</span><br>Adilis</h1>
-    <div class="hero-title">// <span id="typed-text"></span><span class="typed-cursor">|</span></div>
-    <p class="hero-motto">Pantang pulang sebelum ping</p>
-    <div class="hero-cta">
-      <a href="#contact" class="btn btn-primary">Hubungi Saya</a>
-      <a href="#experience" class="btn btn-outline">Lihat Proyek</a>
-    </div>
-    <div class="hero-stats">
-      <div class="stat-item">
-        <span class="stat-num" data-target="2">0</span>
-        <span class="stat-label">Tahun Pengalaman</span>
-      </div>
-      <div class="stat-item">
-        <span class="stat-num" data-target="80">0</span>
-        <span class="stat-label">Titik CCTV Dipasang</span>
-      </div>
-      <div class="stat-item">
-        <span class="stat-num" data-target="5">0</span>
-        <span class="stat-label">Merek CCTV Dikuasai</span>
-      </div>
-    </div>
+  <!-- PRELOADER -->
+  <div id="preloader">
+    <div class="loader-ring"></div>
+    <div class="loader-text">INITIALIZING SYSTEM</div>
   </div>
-  <div class="scroll-indicator">
-    <span>Scroll</span>
-    <div class="scroll-arrow"></div>
-  </div>
-</section>
 
-<!-- ABOUT -->
-<section id="about">
-  <div class="section-wrapper">
-    <div class="about-grid">
-      <div class="about-avatar-wrap reveal">
-        <div class="avatar-frame">
-          <div class="avatar-inner">
-            <span class="avatar-initials">EEA</span>
+  <!-- SCROLL PROGRESS -->
+  <div id="scroll-progress"></div>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-logo">E.E.A <span style="font-size: 0.6em; color: var(--text-dim);">// SYS_ADMIN</span></div>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#experience" class="nav-link">Experience</a></li>
+      <li><a href="#certs" class="nav-link">Certifications</a></li>
+      <li><a href="#gallery" class="nav-link">Gallery</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <canvas id="hero-canvas"></canvas>
+    <div class="hero-bg-ring"></div>
+    <div class="hero-bg-ring"></div>
+    <div class="hero-bg-ring"></div>
+    <div class="hero-content">
+      <span class="hero-tag">Network &amp; CCTV Technician</span>
+      <h1 class="hero-name">Evan<br><span>Ezra</span><br>Adilis</h1>
+      <div class="hero-title">// <span id="typed-text"></span><span class="typed-cursor">|</span></div>
+      <p class="hero-motto">Pantang pulang sebelum ping</p>
+      <div class="hero-cta">
+        <a href="#contact" class="btn btn-primary">Hubungi Saya</a>
+        <a href="#experience" class="btn btn-outline">Lihat Proyek</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-num" data-target="2">0</span>
+          <span class="stat-label">Tahun Pengalaman</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-num" data-target="80">0</span>
+          <span class="stat-label">Titik CCTV Dipasang</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-num" data-target="5">0</span>
+          <span class="stat-label">Merek CCTV Dikuasai</span>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="section-wrapper">
+      <div class="about-grid">
+        <div class="about-avatar-wrap reveal">
+          <div class="avatar-frame">
+            <div class="avatar-inner">
+              <span class="avatar-initials">EEA</span>
+            </div>
+            <div class="avatar-corner tl"></div>
+            <div class="avatar-corner tr"></div>
+            <div class="avatar-corner bl"></div>
+            <div class="avatar-corner br"></div>
           </div>
-          <div class="avatar-corner tl"></div>
-          <div class="avatar-corner tr"></div>
-          <div class="avatar-corner bl"></div>
-          <div class="avatar-corner br"></div>
         </div>
-      </div>
-      <div class="about-text reveal">
-        <div class="section-header">
-          <span class="section-label">Tentang Saya</span>
-          <h2 class="section-title">System Log</h2>
-        </div>
-        <p>Seorang teknisi muda yang berdedikasi di bidang <strong>jaringan komputer dan sistem CCTV</strong> dengan pengalaman lebih dari 2 tahun di lapangan. Saya menjalani setiap pekerjaan dengan prinsip: sistem baru boleh offline ketika tugasku selesai.</p>
-        <p>Saat ini menempuh pendidikan di <strong>Politeknik Negeri Manado</strong>, Jurusan Elektro — Program Studi Informatika. Perpaduan antara teori akademis dan pengalaman kerja nyata membentuk kemampuan saya sebagai teknisi yang andal dan terampil.</p>
-        <p>Terlatih menangani instalasi skala besar, troubleshooting real-time, dan konfigurasi perangkat jaringan dari berbagai vendor terkemuka.</p>
-        <div class="about-badges">
-          <span class="badge">Politeknik Negeri Manado</span>
-          <span class="badge">D3 Informatika</span>
-          <span class="badge">Jurusan Elektro</span>
-          <span class="badge">Field Engineer</span>
-          <span class="badge">Problem Solver</span>
+        <div class="about-text reveal">
+          <div class="section-header">
+            <span class="section-label">Tentang Saya</span>
+            <h2 class="section-title">System Log</h2>
+          </div>
+          <p>Seorang teknisi muda yang berdedikasi di bidang <strong>jaringan komputer dan sistem CCTV</strong> dengan
+            pengalaman lebih dari 2 tahun di lapangan. Saya menjalani setiap pekerjaan dengan prinsip: sistem baru boleh
+            offline ketika tugasku selesai.</p>
+          <p>Saat ini menempuh pendidikan di <strong>Politeknik Negeri Manado</strong>, Jurusan Elektro — Program Studi
+            Informatika. Perpaduan antara teori akademis dan pengalaman kerja nyata membentuk kemampuan saya sebagai
+            teknisi yang andal dan terampil.</p>
+          <p>Terlatih menangani instalasi skala besar, troubleshooting real-time, dan konfigurasi perangkat jaringan
+            dari berbagai vendor terkemuka.</p>
+          <div class="about-badges">
+            <span class="badge">Politeknik Negeri Manado</span>
+            <span class="badge">D3 Informatika</span>
+            <span class="badge">Jurusan Elektro</span>
+            <span class="badge">Field Engineer</span>
+            <span class="badge">Problem Solver</span>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- SKILLS -->
-<section id="skills">
-  <div class="section-wrapper">
-    <div class="section-header reveal">
-      <span class="section-label">Keahlian Teknis</span>
-      <h2 class="section-title">Stack Teknologi</h2>
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="section-wrapper">
+      <div class="section-header reveal">
+        <span class="section-label">Keahlian Teknis</span>
+        <h2 class="section-title">Stack Teknologi</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card reveal">
+          <span class="skill-icon">🌐</span>
+          <div class="skill-name">Networking</div>
+          <p class="skill-desc">Konfigurasi dan manajemen jaringan skala enterprise</p>
+          <div class="skill-tags">
+            <span class="skill-tag">Mikrotik</span>
+            <span class="skill-tag">Cisco</span>
+            <span class="skill-tag">Switch</span>
+            <span class="skill-tag">Router</span>
+            <span class="skill-tag">IP Address</span>
+            <span class="skill-tag">VPN</span>
+            <span class="skill-tag">PoE</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <span class="skill-icon">📡</span>
+          <div class="skill-name">CCTV Systems</div>
+          <p class="skill-desc">Instalasi dan konfigurasi sistem pengawasan IP</p>
+          <div class="skill-tags">
+            <span class="skill-tag">HikVision</span>
+            <span class="skill-tag">Huawei</span>
+            <span class="skill-tag">Hilook</span>
+            <span class="skill-tag">Holowits</span>
+            <span class="skill-tag">Dahua</span>
+            <span class="skill-tag">NVR/DVR</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <span class="skill-icon">🔌</span>
+          <div class="skill-name">Cabling</div>
+          <p class="skill-desc">Penarikan dan terminasi kabel struktural</p>
+          <div class="skill-tags">
+            <span class="skill-tag">Fiber Optic</span>
+            <span class="skill-tag">LAN (CAT6)</span>
+            <span class="skill-tag">Coaxial</span>
+            <span class="skill-tag">Splicing</span>
+            <span class="skill-tag">Crimping</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <span class="skill-icon">🖥️</span>
+          <div class="skill-name">Server &amp; Storage</div>
+          <p class="skill-desc">Setup dan manajemen server rekaman dan storage</p>
+          <div class="skill-tags">
+            <span class="skill-tag">NVR Setup</span>
+            <span class="skill-tag">DVR Config</span>
+            <span class="skill-tag">Server</span>
+            <span class="skill-tag">RAID</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <span class="skill-icon">🔒</span>
+          <div class="skill-name">Network Security</div>
+          <p class="skill-desc">Keamanan dan privasi jaringan pengawasan</p>
+          <div class="skill-tags">
+            <span class="skill-tag">VPN Config</span>
+            <span class="skill-tag">Firewall</span>
+            <span class="skill-tag">VLAN</span>
+            <span class="skill-tag">ACL</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <span class="skill-icon">⚙️</span>
+          <div class="skill-name">Field Operations</div>
+          <p class="skill-desc">Eksekusi proyek lapangan skala besar</p>
+          <div class="skill-tags">
+            <span class="skill-tag">Site Survey</span>
+            <span class="skill-tag">Troubleshoot</span>
+            <span class="skill-tag">Commissioning</span>
+            <span class="skill-tag">Maintenance</span>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="skills-grid">
-      <div class="skill-card reveal">
-        <span class="skill-icon">🌐</span>
-        <div class="skill-name">Networking</div>
-        <p class="skill-desc">Konfigurasi dan manajemen jaringan skala enterprise</p>
-        <div class="skill-tags">
-          <span class="skill-tag">Mikrotik</span>
-          <span class="skill-tag">Cisco</span>
-          <span class="skill-tag">Switch</span>
-          <span class="skill-tag">Router</span>
-          <span class="skill-tag">IP Address</span>
-          <span class="skill-tag">VPN</span>
-          <span class="skill-tag">PoE</span>
-        </div>
-      </div>
-      <div class="skill-card reveal">
-        <span class="skill-icon">📡</span>
-        <div class="skill-name">CCTV Systems</div>
-        <p class="skill-desc">Instalasi dan konfigurasi sistem pengawasan IP</p>
-        <div class="skill-tags">
-          <span class="skill-tag">HikVision</span>
-          <span class="skill-tag">Huawei</span>
-          <span class="skill-tag">Hilook</span>
-          <span class="skill-tag">Holowits</span>
-          <span class="skill-tag">Dahua</span>
-          <span class="skill-tag">NVR/DVR</span>
-        </div>
-      </div>
-      <div class="skill-card reveal">
-        <span class="skill-icon">🔌</span>
-        <div class="skill-name">Cabling</div>
-        <p class="skill-desc">Penarikan dan terminasi kabel struktural</p>
-        <div class="skill-tags">
-          <span class="skill-tag">Fiber Optic</span>
-          <span class="skill-tag">LAN (CAT6)</span>
-          <span class="skill-tag">Coaxial</span>
-          <span class="skill-tag">Splicing</span>
-          <span class="skill-tag">Crimping</span>
-        </div>
-      </div>
-      <div class="skill-card reveal">
-        <span class="skill-icon">🖥️</span>
-        <div class="skill-name">Server &amp; Storage</div>
-        <p class="skill-desc">Setup dan manajemen server rekaman dan storage</p>
-        <div class="skill-tags">
-          <span class="skill-tag">NVR Setup</span>
-          <span class="skill-tag">DVR Config</span>
-          <span class="skill-tag">Server</span>
-          <span class="skill-tag">RAID</span>
-        </div>
-      </div>
-      <div class="skill-card reveal">
-        <span class="skill-icon">🔒</span>
-        <div class="skill-name">Network Security</div>
-        <p class="skill-desc">Keamanan dan privasi jaringan pengawasan</p>
-        <div class="skill-tags">
-          <span class="skill-tag">VPN Config</span>
-          <span class="skill-tag">Firewall</span>
-          <span class="skill-tag">VLAN</span>
-          <span class="skill-tag">ACL</span>
-        </div>
-      </div>
-      <div class="skill-card reveal">
-        <span class="skill-icon">⚙️</span>
-        <div class="skill-name">Field Operations</div>
-        <p class="skill-desc">Eksekusi proyek lapangan skala besar</p>
-        <div class="skill-tags">
-          <span class="skill-tag">Site Survey</span>
-          <span class="skill-tag">Troubleshoot</span>
-          <span class="skill-tag">Commissioning</span>
-          <span class="skill-tag">Maintenance</span>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+  </section>
 
-<!-- EXPERIENCE -->
-<section id="experience">
-  <div class="section-wrapper">
-    <div class="section-header reveal">
-      <span class="section-label">Pengalaman</span>
-      <h2 class="section-title">Riwayat Operasi</h2>
-    </div>
-    <div class="exp-timeline">
-      <div class="exp-item reveal">
-        <div class="exp-date">2023 — 2024 · Proyek Unggulan</div>
-        <div class="exp-role">Instalasi Jaringan &amp; CCTV</div>
-        <div class="exp-company">Polda Sulawesi Utara (SULUT)</div>
-        <div class="exp-desc">Terlibat dalam proyek instalasi sistem pengawasan skala besar di lingkungan Polda SULUT dengan total 80 titik kamera. Proyek mencakup perencanaan topologi, penarikan kabel, hingga commissioning sistem penuh yang terintegrasi dengan pusat monitoring. Berhasil menyelesaikan implementasi tanpa kendala downtime yang berarti.</div>
-        <div class="exp-highlights">
-          <span class="exp-tag">80 Titik CCTV</span>
-          <span class="exp-tag">Kabel LAN &amp; FO</span>
-          <span class="exp-tag">Konfigurasi Switch</span>
-          <span class="exp-tag">NVR/DVR Setup</span>
-          <span class="exp-tag">PoE Configuration</span>
-          <span class="exp-tag">IP Addressing</span>
-          <span class="exp-tag">VPN Integration</span>
-          <span class="exp-tag">Server Setup</span>
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="section-wrapper">
+      <div class="section-header reveal">
+        <span class="section-label">Pengalaman</span>
+        <h2 class="section-title">Riwayat Operasi</h2>
+      </div>
+      <div class="exp-timeline">
+        <div class="exp-item reveal">
+          <div class="exp-date">2023 — 2024 · Proyek Unggulan</div>
+          <div class="exp-role">Instalasi Jaringan &amp; CCTV</div>
+          <div class="exp-company">Polda Sulawesi Utara (SULUT)</div>
+          <div class="exp-desc">Terlibat dalam proyek instalasi sistem pengawasan skala besar di lingkungan Polda SULUT
+            dengan total 80 titik kamera. Proyek mencakup perencanaan topologi, penarikan kabel, hingga commissioning
+            sistem penuh yang terintegrasi dengan pusat monitoring. Berhasil menyelesaikan implementasi tanpa kendala
+            downtime yang berarti.</div>
+          <div class="exp-highlights">
+            <span class="exp-tag">80 Titik CCTV</span>
+            <span class="exp-tag">Kabel LAN &amp; FO</span>
+            <span class="exp-tag">Konfigurasi Switch</span>
+            <span class="exp-tag">NVR/DVR Setup</span>
+            <span class="exp-tag">PoE Configuration</span>
+            <span class="exp-tag">IP Addressing</span>
+            <span class="exp-tag">VPN Integration</span>
+            <span class="exp-tag">Server Setup</span>
+          </div>
+        </div>
+        <div class="exp-item reveal">
+          <div class="exp-date">2022 — Sekarang · Ongoing</div>
+          <div class="exp-role">Network &amp; CCTV Technician</div>
+          <div class="exp-company">Field Engineering — Sulawesi Utara</div>
+          <div class="exp-desc">Menangani berbagai proyek instalasi dan maintenance sistem jaringan dan CCTV di wilayah
+            Sulawesi Utara. Berpengalaman mengkonfigurasi perangkat dari berbagai vendor mulai dari Mikrotik, Cisco,
+            hingga berbagai merek CCTV terkemuka. Terampil dalam troubleshooting real-time di lapangan serta
+            penyelesaian masalah konektivitas yang rumit.</div>
+          <div class="exp-highlights">
+            <span class="exp-tag">Mikrotik RouterOS</span>
+            <span class="exp-tag">Cisco IOS</span>
+            <span class="exp-tag">HikVision</span>
+            <span class="exp-tag">Huawei</span>
+            <span class="exp-tag">Dahua</span>
+            <span class="exp-tag">Holowits</span>
+            <span class="exp-tag">Fiber Splicing</span>
+          </div>
         </div>
       </div>
-      <div class="exp-item reveal">
-        <div class="exp-date">2022 — Sekarang · Ongoing</div>
-        <div class="exp-role">Network &amp; CCTV Technician</div>
-        <div class="exp-company">Field Engineering — Sulawesi Utara</div>
-        <div class="exp-desc">Menangani berbagai proyek instalasi dan maintenance sistem jaringan dan CCTV di wilayah Sulawesi Utara. Berpengalaman mengkonfigurasi perangkat dari berbagai vendor mulai dari Mikrotik, Cisco, hingga berbagai merek CCTV terkemuka. Terampil dalam troubleshooting real-time di lapangan serta penyelesaian masalah konektivitas yang rumit.</div>
-        <div class="exp-highlights">
-          <span class="exp-tag">Mikrotik RouterOS</span>
-          <span class="exp-tag">Cisco IOS</span>
-          <span class="exp-tag">HikVision</span>
-          <span class="exp-tag">Huawei</span>
-          <span class="exp-tag">Dahua</span>
-          <span class="exp-tag">Holowits</span>
-          <span class="exp-tag">Fiber Splicing</span>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS (NEW) -->
+  <section id="certs">
+    <div class="section-wrapper">
+      <div class="section-header reveal">
+        <span class="section-label">Validasi Keahlian</span>
+        <h2 class="section-title">Sertifikasi &amp; Training</h2>
+      </div>
+      <div class="certs-grid">
+        <div class="cert-card reveal">
+          <span class="cert-icon">🏅</span>
+          <div class="cert-name">MikroTik Certified Network Associate (MTCNA)</div>
+          <div class="cert-issuer">Dalam Persiapan / Pelatihan Dasar</div>
+        </div>
+        <div class="cert-card reveal">
+          <span class="cert-icon">🎓</span>
+          <div class="cert-name">D3 Teknik Informatika</div>
+          <div class="cert-issuer">Politeknik Negeri Manado (Ongoing)</div>
+        </div>
+        <div class="cert-card reveal">
+          <span class="cert-icon">🛠️</span>
+          <div class="cert-name">Field Engineering Bootcamp</div>
+          <div class="cert-issuer">Pelatihan Praktik Industri CCTV & Jaringan</div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- CERTIFICATIONS (NEW) -->
-<section id="certs">
-  <div class="section-wrapper">
-    <div class="section-header reveal">
-      <span class="section-label">Validasi Keahlian</span>
-      <h2 class="section-title">Sertifikasi &amp; Training</h2>
+  <!-- GALLERY -->
+  <section id="gallery">
+    <div class="section-wrapper">
+      <div class="section-header reveal">
+        <span class="section-label">Dokumentasi</span>
+        <h2 class="section-title">Galeri Proyek</h2>
+      </div>
+      <div class="gallery-grid reveal">
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=400&h=300&fit=crop"
+            alt="CCTV Installation">
+          <div class="gallery-overlay"><span>Instalasi CCTV</span></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=400&h=300&fit=crop" alt="Network Setup">
+          <div class="gallery-overlay"><span>Network Setup</span></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400&h=300&fit=crop"
+            alt="Server Room">
+          <div class="gallery-overlay"><span>Server Room</span></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop" alt="Fiber Optic">
+          <div class="gallery-overlay"><span>Fiber Optic</span></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="https://images.unsplash.com/photo-1573164713988-8665fc963095?w=400&h=300&fit=crop"
+            alt="Monitoring Center">
+          <div class="gallery-overlay"><span>Monitoring Center</span></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81?w=400&h=300&fit=crop"
+            alt="Cabling Work">
+          <div class="gallery-overlay"><span>Cabling Work</span></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=400&h=300&fit=crop" alt="Equipment">
+          <div class="gallery-overlay"><span>Equipment</span></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="https://images.unsplash.com/photo-1563770660941-20978e870e26?w=400&h=300&fit=crop" alt="Field Work">
+          <div class="gallery-overlay"><span>Field Work</span></div>
+        </div>
+      </div>
     </div>
-    <div class="certs-grid">
-      <div class="cert-card reveal">
-        <span class="cert-icon">🏅</span>
-        <div class="cert-name">MikroTik Certified Network Associate (MTCNA)</div>
-        <div class="cert-issuer">Dalam Persiapan / Pelatihan Dasar</div>
-      </div>
-      <div class="cert-card reveal">
-        <span class="cert-icon">🎓</span>
-        <div class="cert-name">D3 Teknik Informatika</div>
-        <div class="cert-issuer">Politeknik Negeri Manado (Ongoing)</div>
-      </div>
-      <div class="cert-card reveal">
-        <span class="cert-icon">🛠️</span>
-        <div class="cert-name">Field Engineering Bootcamp</div>
-        <div class="cert-issuer">Pelatihan Praktik Industri CCTV & Jaringan</div>
-      </div>
-    </div>
-  </div>
-</section>
+  </section>
 
-<!-- GALLERY -->
-<section id="gallery">
-  <div class="section-wrapper">
-    <div class="section-header reveal">
-      <span class="section-label">Dokumentasi</span>
-      <h2 class="section-title">Galeri Proyek</h2>
-    </div>
-    <div class="gallery-grid reveal">
-      <div class="gallery-item" onclick="openLightbox(this)">
-        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=400&h=300&fit=crop" alt="CCTV Installation">
-        <div class="gallery-overlay"><span>Instalasi CCTV</span></div>
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="section-wrapper">
+      <div class="section-header reveal">
+        <span class="section-label">Kontak</span>
+        <h2 class="section-title">Hubungkan Jalur</h2>
       </div>
-      <div class="gallery-item" onclick="openLightbox(this)">
-        <img src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=400&h=300&fit=crop" alt="Network Setup">
-        <div class="gallery-overlay"><span>Network Setup</span></div>
-      </div>
-      <div class="gallery-item" onclick="openLightbox(this)">
-        <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400&h=300&fit=crop" alt="Server Room">
-        <div class="gallery-overlay"><span>Server Room</span></div>
-      </div>
-      <div class="gallery-item" onclick="openLightbox(this)">
-        <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop" alt="Fiber Optic">
-        <div class="gallery-overlay"><span>Fiber Optic</span></div>
-      </div>
-      <div class="gallery-item" onclick="openLightbox(this)">
-        <img src="https://images.unsplash.com/photo-1573164713988-8665fc963095?w=400&h=300&fit=crop" alt="Monitoring Center">
-        <div class="gallery-overlay"><span>Monitoring Center</span></div>
-      </div>
-      <div class="gallery-item" onclick="openLightbox(this)">
-        <img src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81?w=400&h=300&fit=crop" alt="Cabling Work">
-        <div class="gallery-overlay"><span>Cabling Work</span></div>
-      </div>
-      <div class="gallery-item" onclick="openLightbox(this)">
-        <img src="https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=400&h=300&fit=crop" alt="Equipment">
-        <div class="gallery-overlay"><span>Equipment</span></div>
-      </div>
-      <div class="gallery-item" onclick="openLightbox(this)">
-        <img src="https://images.unsplash.com/photo-1563770660941-20978e870e26?w=400&h=300&fit=crop" alt="Field Work">
-        <div class="gallery-overlay"><span>Field Work</span></div>
-      </div>
-    </div>
-  </div>
-</section>
+      <div class="contact-grid">
+        <div class="reveal">
+          <p class="contact-intro">Butuh teknisi jaringan atau CCTV yang berpengalaman? Mari berkolaborasi. Saya siap
+            menangani proyek instalasi, konfigurasi, maupun maintenance sistem Anda.</p>
+          <div class="contact-items" style="margin-bottom: 2.5rem;">
+            <a href="mailto:evanadilis2007@gmail.com" class="contact-item">
+              <span class="contact-icon">✉</span>
+              <div>
+                <span class="contact-label">Email</span>
+                <span class="contact-value">evanadilis2007@gmail.com</span>
+              </div>
+            </a>
+            <a href="https://wa.me/6285956273752" target="_blank" class="contact-item">
+              <span class="contact-icon">📲</span>
+              <div>
+                <span class="contact-label">WhatsApp</span>
+                <span class="contact-value">085956273752</span>
+              </div>
+            </a>
+            <a href="https://www.instagram.com/vanadls2/" target="_blank" class="contact-item">
+              <span class="contact-icon">📸</span>
+              <div>
+                <span class="contact-label">Instagram</span>
+                <span class="contact-value">@vanadls2</span>
+              </div>
+            </a>
+          </div>
 
-<!-- CONTACT -->
-<section id="contact">
-  <div class="section-wrapper">
-    <div class="section-header reveal">
-      <span class="section-label">Kontak</span>
-      <h2 class="section-title">Hubungkan Jalur</h2>
-    </div>
-    <div class="contact-grid">
-      <div class="reveal">
-        <p class="contact-intro">Butuh teknisi jaringan atau CCTV yang berpengalaman? Mari berkolaborasi. Saya siap menangani proyek instalasi, konfigurasi, maupun maintenance sistem Anda.</p>
-        <div class="contact-items" style="margin-bottom: 2.5rem;">
-          <a href="mailto:evanadilis2007@gmail.com" class="contact-item">
-            <span class="contact-icon">✉</span>
-            <div>
-              <span class="contact-label">Email</span>
-              <span class="contact-value">evanadilis2007@gmail.com</span>
+          <!-- NEW CONTACT FORM -->
+          <h3
+            style="font-family:'Share Tech Mono',monospace; color:var(--cyan); font-size:0.9rem; letter-spacing:0.1em; margin-bottom:1rem; text-transform:uppercase;">
+            > Kirim Pesan Cepat</h3>
+          <form class="contact-form" action="mailto:evanadilis2007@gmail.com" method="post" enctype="text/plain">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Nama / Instansi</label>
+                <input type="text" id="name" name="name" required placeholder="Masukkan nama Anda">
+              </div>
+              <div class="form-group">
+                <label for="phone">No. Telp / WhatsApp</label>
+                <input type="tel" id="phone" name="phone" required placeholder="08xxxxxxxx">
+              </div>
             </div>
-          </a>
-          <a href="https://wa.me/6285956273752" target="_blank" class="contact-item">
-            <span class="contact-icon">📲</span>
-            <div>
-              <span class="contact-label">WhatsApp</span>
-              <span class="contact-value">085956273752</span>
-            </div>
-          </a>
-          <a href="https://www.instagram.com/vanadls2/" target="_blank" class="contact-item">
-            <span class="contact-icon">📸</span>
-            <div>
-              <span class="contact-label">Instagram</span>
-              <span class="contact-value">@vanadls2</span>
-            </div>
-          </a>
-        </div>
-        
-        <!-- NEW CONTACT FORM -->
-        <h3 style="font-family:'Share Tech Mono',monospace; color:var(--cyan); font-size:0.9rem; letter-spacing:0.1em; margin-bottom:1rem; text-transform:uppercase;">> Kirim Pesan Cepat</h3>
-        <form class="contact-form" action="mailto:evanadilis2007@gmail.com" method="post" enctype="text/plain">
-          <div class="form-row">
             <div class="form-group">
-              <label for="name">Nama / Instansi</label>
-              <input type="text" id="name" name="name" required placeholder="Masukkan nama Anda">
+              <label for="message">Deskripsi Proyek / Kebutuhan</label>
+              <textarea id="message" name="message" required
+                placeholder="Jelaskan kebutuhan instalasi atau kendala jaringan Anda..."></textarea>
             </div>
-            <div class="form-group">
-              <label for="phone">No. Telp / WhatsApp</label>
-              <input type="tel" id="phone" name="phone" required placeholder="08xxxxxxxx">
+            <button type="submit" class="btn-submit">Execute Request</button>
+          </form>
+        </div>
+
+        <div class="reveal">
+          <div class="terminal-box">
+            <div class="terminal-header">
+              <div class="terminal-dot red"></div>
+              <div class="terminal-dot yellow"></div>
+              <div class="terminal-dot green"></div>
             </div>
+            <div><span class="comment"># system_info.sh</span></div>
+            <div><span class="prompt">evan@polimdo:~$</span> <span class="cmd">whoami</span></div>
+            <div class="output">&gt; Evan Ezra Adilis</div>
+            <div><span class="prompt">evan@polimdo:~$</span> <span class="cmd">uptime</span></div>
+            <div class="output">&gt; 2+ years experience</div>
+            <div><span class="prompt">evan@polimdo:~$</span> <span class="cmd">ping 8.8.8.8</span></div>
+            <div class="output">&gt; PING 8.8.8.8 — 64 bytes</div>
+            <div class="output">&gt; time=0.42ms TTL=64</div>
+            <div class="output">&gt; Packet loss: 0.0%</div>
+            <div><span class="prompt">evan@polimdo:~$</span> <span class="cmd">cat motto.txt</span></div>
+            <div class="output">&gt; "Pantang pulang sebelum ping"</div>
+            <div><span class="prompt">evan@polimdo:~$</span> <span class="cmd">status --connection</span></div>
+            <div class="output">&gt; Ready for new project deployment...</div>
+            <div><span class="prompt">evan@polimdo:~$</span> <span class="cursor" id="terminal-cursor"></span></div>
           </div>
-          <div class="form-group">
-            <label for="message">Deskripsi Proyek / Kebutuhan</label>
-            <textarea id="message" name="message" required placeholder="Jelaskan kebutuhan instalasi atau kendala jaringan Anda..."></textarea>
-          </div>
-          <button type="submit" class="btn-submit">Execute Request</button>
-        </form>
-      </div>
-      
-      <div class="reveal">
-        <div class="terminal-box">
-          <div class="terminal-header">
-            <div class="terminal-dot red"></div>
-            <div class="terminal-dot yellow"></div>
-            <div class="terminal-dot green"></div>
-          </div>
-          <div><span class="comment"># system_info.sh</span></div>
-          <div><span class="prompt">evan@polimdo:~$</span> <span class="cmd">whoami</span></div>
-          <div class="output">&gt; Evan Ezra Adilis</div>
-          <div><span class="prompt">evan@polimdo:~$</span> <span class="cmd">uptime</span></div>
-          <div class="output">&gt; 2+ years experience</div>
-          <div><span class="prompt">evan@polimdo:~$</span> <span class="cmd">ping 8.8.8.8</span></div>
-          <div class="output">&gt; PING 8.8.8.8 — 64 bytes</div>
-          <div class="output">&gt; time=0.42ms TTL=64</div>
-          <div class="output">&gt; Packet loss: 0.0%</div>
-          <div><span class="prompt">evan@polimdo:~$</span> <span class="cmd">cat motto.txt</span></div>
-          <div class="output">&gt; "Pantang pulang sebelum ping"</div>
-          <div><span class="prompt">evan@polimdo:~$</span> <span class="cmd">status --connection</span></div>
-          <div class="output">&gt; Ready for new project deployment...</div>
-          <div><span class="prompt">evan@polimdo:~$</span> <span class="cursor" id="terminal-cursor"></span></div>
         </div>
       </div>
     </div>
+  </section>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" onclick="closeLightbox()">✕</button>
+    <img src="" alt="Preview" id="lightboxImg">
   </div>
-</section>
 
-<!-- LIGHTBOX -->
-<div class="lightbox" id="lightbox">
-  <button class="lightbox-close" onclick="closeLightbox()">✕</button>
-  <img src="" alt="Preview" id="lightboxImg">
-</div>
+  <!-- BACK TO TOP -->
+  <button id="backToTop" onclick="window.scrollTo(0,0)" aria-label="Back to top">↑</button>
 
-<!-- BACK TO TOP -->
-<button id="backToTop" onclick="window.scrollTo(0,0)" aria-label="Back to top">↑</button>
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-logo">EVAN EZRA ADILIS</div>
+    <div class="footer-copy">&copy; 2024 · Network &amp; CCTV Technician · Manado, Sulawesi Utara</div>
+  </footer>
 
-<!-- FOOTER -->
-<footer>
-  <div class="footer-logo">EVAN EZRA ADILIS</div>
-  <div class="footer-copy">&copy; 2024 · Network &amp; CCTV Technician · Manado, Sulawesi Utara</div>
-</footer>
+  <script>
+    // --- PRELOADER ---
+    window.addEventListener('load', () => {
+      setTimeout(() => {
+        document.getElementById('preloader').classList.add('hidden');
+        animateCounters();
+      }, 1200);
+    });
 
-<script>
-// --- PRELOADER ---
-window.addEventListener('load', () => {
-  setTimeout(() => {
-    document.getElementById('preloader').classList.add('hidden');
-    animateCounters();
-  }, 1200);
-});
+    // --- CUSTOM MOUSE GLOW ---
+    const glow = document.getElementById('mouse-glow');
+    document.addEventListener('mousemove', (e) => {
+      glow.style.left = e.clientX + 'px';
+      glow.style.top = e.clientY + 'px';
+    });
+    document.addEventListener('mouseleave', () => glow.style.opacity = '0');
+    document.addEventListener('mouseenter', () => glow.style.opacity = '1');
 
-// --- CUSTOM MOUSE GLOW ---
-const glow = document.getElementById('mouse-glow');
-document.addEventListener('mousemove', (e) => {
-  glow.style.left = e.clientX + 'px';
-  glow.style.top = e.clientY + 'px';
-});
-document.addEventListener('mouseleave', () => glow.style.opacity = '0');
-document.addEventListener('mouseenter', () => glow.style.opacity = '1');
+    // --- DARKVEIL WEBGL EFFECT (REPLACING PARTICLES) ---
+  </script>
+  <script type="module">
+    import { Renderer, Program, Mesh, Triangle, Vec2 } from 'https://cdn.jsdelivr.net/npm/ogl@0.0.117/src/index.mjs';
 
-// --- PARTICLES BG (HERO) ---
-const canvas = document.getElementById('hero-canvas');
-const ctx = canvas.getContext('2d');
-let particles = [];
-function resizeCanvas() {
-  canvas.width = document.getElementById('hero').offsetWidth;
-  canvas.height = document.getElementById('hero').offsetHeight;
-}
-window.addEventListener('resize', resizeCanvas);
-resizeCanvas();
+    const canvas = document.getElementById('hero-canvas');
+    const parent = document.getElementById('hero');
 
-class Particle {
-  constructor() {
-    this.x = Math.random() * canvas.width;
-    this.y = Math.random() * canvas.height;
-    this.size = Math.random() * 2;
-    this.speedX = Math.random() * 1 - 0.5;
-    this.speedY = Math.random() * 1 - 0.5;
-    this.opacity = Math.random() * 0.5 + 0.1;
-  }
-  update() {
-    this.x += this.speedX;
-    this.y += this.speedY;
-    if(this.x > canvas.width) this.x = 0;
-    else if(this.x < 0) this.x = canvas.width;
-    if(this.y > canvas.height) this.y = 0;
-    else if(this.y < 0) this.y = canvas.height;
-  }
-  draw() {
-    ctx.fillStyle = `rgba(0, 245, 255, ${this.opacity})`;
-    ctx.beginPath();
-    ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
-    ctx.fill();
-  }
-}
-function initParticles() {
-  particles = [];
-  for(let i=0; i<80; i++) {
-    particles.push(new Particle());
-  }
-}
-function animateParticles() {
-  ctx.clearRect(0, 0, canvas.width, canvas.height);
-  for(let i=0; i<particles.length; i++) {
-    particles[i].update();
-    particles[i].draw();
-    // Connect particles
-    for(let j=i; j<particles.length; j++) {
-      const dx = particles[i].x - particles[j].x;
-      const dy = particles[i].y - particles[j].y;
-      const distance = Math.sqrt(dx*dx + dy*dy);
-      if(distance < 100) {
-        ctx.beginPath();
-        ctx.strokeStyle = `rgba(0, 245, 255, ${0.1 - distance/1000})`;
-        ctx.lineWidth = 0.5;
-        ctx.moveTo(particles[i].x, particles[i].y);
-        ctx.lineTo(particles[j].x, particles[j].y);
-        ctx.stroke();
+    const vertex = `
+    attribute vec2 position;
+    void main(){gl_Position=vec4(position,0.0,1.0);}
+    `;
+
+    const fragment = `
+    #ifdef GL_ES
+    precision lowp float;
+    #endif
+    uniform vec2 uResolution;
+    uniform float uTime;
+    uniform float uHueShift;
+    uniform float uNoise;
+    uniform float uScan;
+    uniform float uScanFreq;
+    uniform float uWarp;
+    #define iTime uTime
+    #define iResolution uResolution
+
+    vec4 buf[8];
+    float rand(vec2 c){return fract(sin(dot(c,vec2(12.9898,78.233)))*43758.5453);}
+
+    mat3 rgb2yiq=mat3(0.299,0.587,0.114,0.596,-0.274,-0.322,0.211,-0.523,0.312);
+    mat3 yiq2rgb=mat3(1.0,0.956,0.621,1.0,-0.272,-0.647,1.0,-1.106,1.703);
+
+    vec3 hueShiftRGB(vec3 col,float deg){
+        vec3 yiq=rgb2yiq*col;
+        float rad=radians(deg);
+        float cosh=cos(rad),sinh=sin(rad);
+        vec3 yiqShift=vec3(yiq.x,yiq.y*cosh-yiq.z*sinh,yiq.y*sinh+yiq.z*cosh);
+        return clamp(yiq2rgb*yiqShift,0.0,1.0);
+    }
+
+    vec4 sigmoid(vec4 x){return 1./(1.+exp(-x));}
+
+    vec4 cppn_fn(vec2 coordinate,float in0,float in1,float in2){
+        buf[6]=vec4(coordinate.x,coordinate.y,0.3948333106474662+in0,0.36+in1);
+        buf[7]=vec4(0.14+in2,sqrt(coordinate.x*coordinate.x+coordinate.y*coordinate.y),0.,0.);
+        buf[0]=mat4(vec4(6.5404263,-3.6126034,0.7590882,-1.13613),vec4(2.4582713,3.1660357,1.2219609,0.06276096),vec4(-5.478085,-6.159632,1.8701609,-4.7742867),vec4(6.039214,-5.542865,-0.90925294,3.251348))*buf[6]+mat4(vec4(0.8473259,-5.722911,3.975766,1.6522468),vec4(-0.24321538,0.5839259,-1.7661959,-5.350116),vec4(0.,0.,0.,0.),vec4(0.,0.,0.,0.))*buf[7]+vec4(0.21808943,1.1243913,-1.7969975,5.0294676);
+        buf[1]=mat4(vec4(-3.3522482,-6.0612736,0.55641043,-4.4719114),vec4(0.8631464,1.7432913,5.643898,1.6106541),vec4(2.4941394,-3.5012043,1.7184316,6.357333),vec4(3.310376,8.209261,1.1355612,-1.165539))*buf[6]+mat4(vec4(5.24046,-13.034365,0.009859298,15.870829),vec4(2.987511,3.129433,-0.89023495,-1.6822904),vec4(0.,0.,0.,0.),vec4(0.,0.,0.,0.))*buf[7]+vec4(-5.9457836,-6.573602,-0.8812491,1.5436668);
+        buf[0]=sigmoid(buf[0]);buf[1]=sigmoid(buf[1]);
+        buf[2]=mat4(vec4(-15.219568,8.095543,-2.429353,-1.9381982),vec4(-5.951362,4.3115187,2.6393783,1.274315),vec4(-7.3145227,6.7297835,5.2473326,5.9411426),vec4(5.0796127,8.979051,-1.7278991,-1.158976))*buf[6]+mat4(vec4(-11.967154,-11.608155,6.1486754,11.237008),vec4(2.124141,-6.263192,-1.7050359,-0.7021966),vec4(0.,0.,0.,0.),vec4(0.,0.,0.,0.))*buf[7]+vec4(-4.17164,-3.2281182,-4.576417,-3.6401186);
+        buf[3]=mat4(vec4(3.1832156,-13.738922,1.879223,3.233465),vec4(0.64300746,12.768129,1.9141049,0.50990224),vec4(-0.049295485,4.4807224,1.4733979,1.801449),vec4(5.0039253,13.000481,3.3991797,-4.5561905))*buf[6]+mat4(vec4(-0.1285731,7.720628,-3.1425676,4.742367),vec4(0.6393625,3.714393,-0.8108378,-0.39174938),vec4(0.,0.,0.,0.),vec4(0.,0.,0.,0.))*buf[7]+vec4(-1.1811101,-21.621881,0.7851888,1.2329718);
+        buf[2]=sigmoid(buf[2]);buf[3]=sigmoid(buf[3]);
+        buf[4]=mat4(vec4(5.214916,-7.183024,2.7228765,2.6592617),vec4(-5.601878,-25.3591,4.067988,0.4602802),vec4(-10.57759,24.286327,21.102104,37.546658),vec4(4.3024497,-1.9625226,2.3458803,-1.372816))*buf[0]+mat4(vec4(-17.6526,-10.507558,2.2587414,12.462782),vec4(6.265566,-502.75443,-12.642513,0.9112289),vec4(-10.983244,20.741234,-9.701768,-0.7635988),vec4(5.383626,1.4819539,-4.1911616,-4.8444734))*buf[1]+mat4(vec4(12.785233,-16.345072,-0.39901125,1.7955981),vec4(-30.48365,-1.8345358,1.4542528,-1.1118771),vec4(19.872723,-7.337935,-42.941723,-98.52709),vec4(8.337645,-2.7312303,-2.2927687,-36.142323))*buf[2]+mat4(vec4(-16.298317,3.5471997,-0.44300047,-9.444417),vec4(57.5077,-35.609753,16.163465,-4.1534753),vec4(-0.07470326,-3.8656476,-7.0901804,3.1523974),vec4(-12.559385,-7.077619,1.490437,-0.8211543))*buf[3]+vec4(-7.67914,15.927437,1.3207729,-1.6686112);
+        buf[5]=mat4(vec4(-1.4109162,-0.372762,-3.770383,-21.367174),vec4(-6.2103205,-9.35908,0.92529047,8.82561),vec4(11.460242,-22.348068,13.625772,-18.693201),vec4(-0.3429052,-3.9905605,-2.4626114,-0.45033523))*buf[0]+mat4(vec4(7.3481627,-4.3661838,-6.3037653,-3.868115),vec4(1.5462853,6.5488915,1.9701879,-0.58291394),vec4(6.5858274,-2.2180402,3.7127688,-1.3730392),vec4(-5.7973905,10.134961,-2.3395722,-5.965605))*buf[1]+mat4(vec4(-2.5132585,-6.6685553,-1.4029363,-0.16285264),vec4(-0.37908727,0.53738135,4.389061,-1.3024765),vec4(-0.70647055,2.0111287,-5.1659346,-3.728635),vec4(-13.562562,10.487719,-0.9173751,-2.6487076))*buf[2]+mat4(vec4(-8.645013,6.5546675,-6.3944063,-5.5933375),vec4(-0.57783127,-1.077275,36.91025,5.736769),vec4(14.283112,3.7146652,7.1452246,-4.5958776),vec4(2.7192075,3.6021907,-4.366337,-2.3653464))*buf[3]+vec4(-5.9000807,-4.329569,1.2427121,8.59503);
+        buf[4]=sigmoid(buf[4]);buf[5]=sigmoid(buf[5]);
+        buf[6]=mat4(vec4(-1.61102,0.7970257,1.4675229,0.20917463),vec4(-28.793737,-7.1390953,1.5025433,4.656581),vec4(-10.94861,39.66238,0.74318546,-10.095605),vec4(-0.7229728,-1.5483948,0.7301322,2.1687684))*buf[0]+mat4(vec4(3.2547753,21.489103,-1.0194173,-3.3100595),vec4(-3.7316632,-3.3792162,-7.223193,-0.23685838),vec4(13.1804495,0.7916005,5.338587,5.687114),vec4(-4.167605,-17.798311,-6.815736,-1.6451967))*buf[1]+mat4(vec4(0.604885,-7.800309,-7.213122,-2.741014),vec4(-3.522382,-0.12359311,-0.5258442,0.43852118),vec4(9.6752825,-22.853785,2.062431,0.099892326),vec4(-4.3196306,-17.730087,2.5184598,5.30267))*buf[2]+mat4(vec4(-6.545563,-15.790176,-6.0438633,-5.415399),vec4(-43.591583,28.551912,-16.00161,18.84728),vec4(4.212382,8.394307,3.0958717,8.657522),vec4(-5.0237565,-4.450633,-4.4768,-5.5010443))*buf[3]+mat4(vec4(1.6985557,-67.05806,6.897715,1.9004834),vec4(1.8680354,2.3915145,2.5231109,4.081538),vec4(11.158006,1.7294737,2.0738268,7.386411),vec4(-4.256034,-306.24686,8.258898,-17.132736))*buf[4]+mat4(vec4(1.6889864,-4.5852966,3.8534803,-6.3482175),vec4(1.3543309,-1.2640043,9.932754,2.9079645),vec4(-5.2770967,0.07150358,-0.13962056,3.3269649),vec4(28.34703,-4.918278,6.1044083,4.085355))*buf[5]+vec4(6.6818056,12.522166,-3.7075126,-4.104386);
+        buf[7]=mat4(vec4(-8.265602,-4.7027016,5.098234,0.7509808),vec4(8.6507845,-17.15949,16.51939,-8.884479),vec4(-4.036479,-2.3946867,-2.6055532,-1.9866527),vec4(-2.2167742,-1.8135649,-5.9759874,4.8846445))*buf[0]+mat4(vec4(6.7790847,3.5076547,-2.8191125,-2.7028968),vec4(-5.743024,-0.27844876,1.4958696,-5.0517144),vec4(13.122226,15.735168,-2.9397483,-4.101023),vec4(-14.375265,-5.030483,-6.2599335,2.9848232))*buf[1]+mat4(vec4(4.0950394,-0.94011575,-5.674733,4.755022),vec4(4.3809423,4.8310084,1.7425908,-3.437416),vec4(2.117492,0.16342592,-104.56341,16.949184),vec4(-5.22543,-2.994248,3.8350096,-1.9364246))*buf[2]+mat4(vec4(-5.900337,1.7946124,-13.604192,-3.8060522),vec4(6.6583457,31.911177,25.164474,91.81147),vec4(11.840538,4.1503043,-0.7314397,6.768467),vec4(-6.3967767,4.034772,6.1714606,-0.32874924))*buf[3]+mat4(vec4(3.4992442,-196.91893,-8.923708,2.8142626),vec4(3.4806502,-3.1846354,5.1725626,5.1804223),vec4(-2.4009497,15.585794,1.2863957,2.0252278),vec4(-71.25271,-62.441242,-8.138444,0.50670296))*buf[4]+mat4(vec4(-12.291733,-11.176166,-7.3474145,4.390294),vec4(10.805477,5.6337385,-0.9385842,-4.7348723),vec4(-12.869276,-7.039391,5.3029537,7.5436664),vec4(1.4593618,8.91898,3.5101583,5.840625))*buf[5]+vec4(2.2415268,-6.705987,-0.98861027,-2.117676);
+        buf[6]=sigmoid(buf[6]);buf[7]=sigmoid(buf[7]);
+        buf[0]=mat4(vec4(1.6794263,1.3817469,2.9625452,0.),vec4(-1.8834411,-1.4806935,-3.5924516,0.),vec4(-1.3279216,-1.0918057,-2.3124623,0.),vec4(0.2662234,0.23235129,0.44178495,0.))*buf[0]+mat4(vec4(-0.6299101,-0.5945583,-0.9125601,0.),vec4(0.17828953,0.18300213,0.18182953,0.),vec4(-2.96544,-2.5819945,-4.9001055,0.),vec4(1.4195864,1.1868085,2.5176322,0.))*buf[1]+mat4(vec4(-1.2584374,-1.0552157,-2.1688404,0.),vec4(-0.7200217,-0.52666044,-1.438251,0.),vec4(0.15345335,0.15196142,0.272854,0.),vec4(0.945728,0.8861938,1.2766753,0.))*buf[2]+mat4(vec4(-2.4218085,-1.968602,-4.35166,0.),vec4(-22.683098,-18.0544,-41.954372,0.),vec4(0.63792,0.5470648,1.1078634,0.),vec4(-1.5489894,-1.3075932,-2.6444845,0.))*buf[3]+mat4(vec4(-0.49252132,-0.39877754,-0.91366625,0.),vec4(0.95609266,0.7923952,1.640221,0.),vec4(0.30616966,0.15693925,0.8639857,0.),vec4(1.1825981,0.94504964,2.176963,0.))*buf[4]+mat4(vec4(0.35446745,0.3293795,0.59547555,0.),vec4(-0.58784515,-0.48177817,-1.0614829,0.),vec4(2.5271258,1.9991658,4.6846647,0.),vec4(0.13042648,0.08864098,0.30187556,0.))*buf[5]+mat4(vec4(-1.7718065,-1.4033192,-3.3355875,0.),vec4(3.1664357,2.638297,5.378702,0.),vec4(-3.1724713,-2.6107926,-5.549295,0.),vec4(-2.851368,-2.249092,-5.3013067,0.))*buf[6]+mat4(vec4(1.5203838,1.2212278,2.8404984,0.),vec4(1.5210563,1.2651345,2.683903,0.),vec4(2.9789467,2.4364579,5.2347264,0.),vec4(2.2270417,1.8825914,3.8028636,0.))*buf[7]+vec4(-1.5468478,-3.6171484,0.24762098,0.);
+        buf[0]=sigmoid(buf[0]);
+        return vec4(buf[0].x,buf[0].y,buf[0].z,1.);
+    }
+
+    void mainImage(out vec4 fragColor,in vec2 fragCoord){
+        vec2 uv=fragCoord/uResolution.xy*2.-1.;
+        uv.y*=-1.;
+        uv+=uWarp*vec2(sin(uv.y*6.283+uTime*0.5),cos(uv.x*6.283+uTime*0.5))*0.05;
+        fragColor=cppn_fn(uv,0.1*sin(0.3*uTime),0.1*sin(0.69*uTime),0.1*sin(0.44*uTime));
+    }
+
+    void main(){
+        vec4 col;mainImage(col,gl_FragCoord.xy);
+        col.rgb=hueShiftRGB(col.rgb,uHueShift);
+        float scanline_val=sin(gl_FragCoord.y*uScanFreq)*0.5+0.5;
+        col.rgb*=1.-(scanline_val*scanline_val)*uScan;
+        col.rgb+=(rand(gl_FragCoord.xy+uTime)-0.5)*uNoise;
+        gl_FragColor=vec4(clamp(col.rgb,0.0,1.0),1.0);
+    }
+    `;
+
+    // Pengaturan warna DarkVeil - Hue Shift 180 mengubah warna dasar menjadi biru/cyan yang sesuai dengan tema portofolio
+    const hueShift = 180; 
+    const noiseIntensity = 0.08;
+    const scanlineIntensity = 0.25;
+    const speed = 0.3; // Gerakan animasi
+    const scanlineFrequency = 800;
+    const warpAmount = 0.2;
+    const resolutionScale = 1;
+
+    const renderer = new Renderer({
+      dpr: Math.min(window.devicePixelRatio, 2),
+      canvas,
+      alpha: true // Transparan agar bg bawaan tetap terlihat
+    });
+
+    const gl = renderer.gl;
+    const geometry = new Triangle(gl);
+
+    const program = new Program(gl, {
+      vertex,
+      fragment,
+      uniforms: {
+        uTime: { value: 0 },
+        uResolution: { value: new Vec2() },
+        uHueShift: { value: hueShift },
+        uNoise: { value: noiseIntensity },
+        uScan: { value: scanlineIntensity },
+        uScanFreq: { value: scanlineFrequency },
+        uWarp: { value: warpAmount },
+      },
+    });
+
+    const mesh = new Mesh(gl, { geometry, program });
+
+    const resize = () => {
+      const w = parent.clientWidth;
+      const h = parent.clientHeight;
+      renderer.setSize(w * resolutionScale, h * resolutionScale);
+      program.uniforms.uResolution.value.set(w, h);
+    };
+
+    window.addEventListener('resize', resize);
+    resize();
+
+    const start = performance.now();
+    let frame = 0;
+
+    const loop = () => {
+      program.uniforms.uTime.value = ((performance.now() - start) / 1000) * speed;
+      renderer.render({ scene: mesh });
+      frame = requestAnimationFrame(loop);
+    };
+
+    loop();
+  </script>
+  <script>
+
+    // --- TYPING EFFECT ---
+    const textArray = ["Infrastruktur Jaringan", "Keamanan Pengawasan", "Konektivitas Stabil", "Troubleshooting Andal"];
+    let textIndex = 0;
+    let charIndex = 0;
+    let isDeleting = false;
+    const typedTextElement = document.getElementById("typed-text");
+
+    function typeEffect() {
+      const currentText = textArray[textIndex];
+
+      if (isDeleting) {
+        typedTextElement.textContent = currentText.substring(0, charIndex - 1);
+        charIndex--;
+      } else {
+        typedTextElement.textContent = currentText.substring(0, charIndex + 1);
+        charIndex++;
       }
+
+      let typeSpeed = 100;
+      if (isDeleting) typeSpeed /= 2;
+
+      if (!isDeleting && charIndex === currentText.length) {
+        typeSpeed = 2000; // Wait at end
+        isDeleting = true;
+      } else if (isDeleting && charIndex === 0) {
+        isDeleting = false;
+        textIndex = (textIndex + 1) % textArray.length;
+        typeSpeed = 500; // Wait before typing next
+      }
+
+      setTimeout(typeEffect, typeSpeed);
     }
-  }
-  requestAnimationFrame(animateParticles);
-}
-initParticles();
-animateParticles();
+    setTimeout(typeEffect, 2000);
 
-// --- TYPING EFFECT ---
-const textArray = ["Infrastruktur Jaringan", "Keamanan Pengawasan", "Konektivitas Stabil", "Troubleshooting Andal"];
-let textIndex = 0;
-let charIndex = 0;
-let isDeleting = false;
-const typedTextElement = document.getElementById("typed-text");
+    // --- SCROLL EFFECTS ---
+    const reveals = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry, i) => {
+        if (entry.isIntersecting) {
+          setTimeout(() => entry.target.classList.add('visible'), i * 80);
+          observer.unobserve(entry.target); // Only animate once
+        }
+      });
+    }, { threshold: 0.1 });
+    reveals.forEach(el => observer.observe(el));
 
-function typeEffect() {
-  const currentText = textArray[textIndex];
-  
-  if (isDeleting) {
-    typedTextElement.textContent = currentText.substring(0, charIndex - 1);
-    charIndex--;
-  } else {
-    typedTextElement.textContent = currentText.substring(0, charIndex + 1);
-    charIndex++;
-  }
-
-  let typeSpeed = 100;
-  if (isDeleting) typeSpeed /= 2;
-
-  if (!isDeleting && charIndex === currentText.length) {
-    typeSpeed = 2000; // Wait at end
-    isDeleting = true;
-  } else if (isDeleting && charIndex === 0) {
-    isDeleting = false;
-    textIndex = (textIndex + 1) % textArray.length;
-    typeSpeed = 500; // Wait before typing next
-  }
-
-  setTimeout(typeEffect, typeSpeed);
-}
-setTimeout(typeEffect, 2000);
-
-// --- SCROLL EFFECTS ---
-const reveals = document.querySelectorAll('.reveal');
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach((entry, i) => {
-    if (entry.isIntersecting) {
-      setTimeout(() => entry.target.classList.add('visible'), i * 80);
-      observer.unobserve(entry.target); // Only animate once
+    // Counter animation
+    let countersAnimated = false;
+    function animateCounters() {
+      if (countersAnimated) return;
+      countersAnimated = true;
+      document.querySelectorAll('.stat-num[data-target]').forEach(el => {
+        const target = +el.dataset.target;
+        const duration = 2000;
+        const step = target / (duration / 16);
+        let current = 0;
+        const timer = setInterval(() => {
+          current += step;
+          if (current >= target) { current = target; clearInterval(timer); }
+          el.textContent = Math.floor(current) + (target <= 10 ? '+' : '');
+        }, 16);
+      });
     }
-  });
-}, { threshold: 0.1 });
-reveals.forEach(el => observer.observe(el));
 
-// Counter animation
-let countersAnimated = false;
-function animateCounters() {
-  if(countersAnimated) return;
-  countersAnimated = true;
-  document.querySelectorAll('.stat-num[data-target]').forEach(el => {
-    const target = +el.dataset.target;
-    const duration = 2000;
-    const step = target / (duration / 16);
-    let current = 0;
-    const timer = setInterval(() => {
-      current += step;
-      if (current >= target) { current = target; clearInterval(timer); }
-      el.textContent = Math.floor(current) + (target <= 10 ? '+' : '');
-    }, 16);
-  });
-}
+    // Scroll progress bar & Nav background
+    const scrollProgress = document.getElementById('scroll-progress');
+    const nav = document.getElementById('navbar');
+    const backToTop = document.getElementById('backToTop');
 
-// Scroll progress bar & Nav background
-const scrollProgress = document.getElementById('scroll-progress');
-const nav = document.getElementById('navbar');
-const backToTop = document.getElementById('backToTop');
+    window.addEventListener('scroll', () => {
+      // Progress bar
+      const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+      const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      const scrolled = (winScroll / height) * 100;
+      scrollProgress.style.width = scrolled + '%';
 
-window.addEventListener('scroll', () => {
-  // Progress bar
-  const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-  const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-  const scrolled = (winScroll / height) * 100;
-  scrollProgress.style.width = scrolled + '%';
-  
-  // Nav styling
-  if (window.scrollY > 50) {
-    nav.classList.add('scrolled');
-    backToTop.classList.add('visible');
-  } else {
-    nav.classList.remove('scrolled');
-    backToTop.classList.remove('visible');
-  }
-});
+      // Nav styling
+      if (window.scrollY > 50) {
+        nav.classList.add('scrolled');
+        backToTop.classList.add('visible');
+      } else {
+        nav.classList.remove('scrolled');
+        backToTop.classList.remove('visible');
+      }
+    });
 
-// --- ACTIVE NAV LINK HIGHLIGHT ---
-const sections = document.querySelectorAll('section');
-const navLinks = document.querySelectorAll('.nav-link');
+    // --- ACTIVE NAV LINK HIGHLIGHT ---
+    const sections = document.querySelectorAll('section');
+    const navLinks = document.querySelectorAll('.nav-link');
 
-window.addEventListener('scroll', () => {
-  let current = '';
-  sections.forEach(section => {
-    const sectionTop = section.offsetTop;
-    const sectionHeight = section.clientHeight;
-    if (scrollY >= (sectionTop - 200)) {
-      current = section.getAttribute('id');
+    window.addEventListener('scroll', () => {
+      let current = '';
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.clientHeight;
+        if (scrollY >= (sectionTop - 200)) {
+          current = section.getAttribute('id');
+        }
+      });
+
+      navLinks.forEach(li => {
+        li.classList.remove('active');
+        if (li.getAttribute('href').includes(current)) {
+          li.classList.add('active');
+        }
+      });
+    });
+
+    // --- MOBILE MENU ---
+    const hamburger = document.getElementById('hamburger');
+    const navMenu = document.getElementById('navLinks');
+
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('active');
+      navMenu.classList.toggle('active');
+    });
+
+    document.querySelectorAll('.nav-links a').forEach(a => {
+      a.addEventListener('click', () => {
+        hamburger.classList.remove('active');
+        navMenu.classList.remove('active');
+      });
+    });
+
+    // --- LIGHTBOX ---
+    function openLightbox(item) {
+      const img = item.querySelector('img');
+      const lb = document.getElementById('lightbox');
+      document.getElementById('lightboxImg').src = img.src.replace('w=400&h=300', 'w=1200&h=900');
+      lb.classList.add('active');
     }
-  });
-
-  navLinks.forEach(li => {
-    li.classList.remove('active');
-    if (li.getAttribute('href').includes(current)) {
-      li.classList.add('active');
+    function closeLightbox() {
+      document.getElementById('lightbox').classList.remove('active');
     }
-  });
-});
+    document.getElementById('lightbox').addEventListener('click', (e) => {
+      if (e.target === e.currentTarget) closeLightbox();
+    });
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeLightbox(); });
 
-// --- MOBILE MENU ---
-const hamburger = document.getElementById('hamburger');
-const navMenu = document.getElementById('navLinks');
-
-hamburger.addEventListener('click', () => {
-  hamburger.classList.toggle('active');
-  navMenu.classList.toggle('active');
-});
-
-document.querySelectorAll('.nav-links a').forEach(a => {
-  a.addEventListener('click', () => {
-    hamburger.classList.remove('active');
-    navMenu.classList.remove('active');
-  });
-});
-
-// --- LIGHTBOX ---
-function openLightbox(item) {
-  const img = item.querySelector('img');
-  const lb = document.getElementById('lightbox');
-  document.getElementById('lightboxImg').src = img.src.replace('w=400&h=300', 'w=1200&h=900');
-  lb.classList.add('active');
-}
-function closeLightbox() {
-  document.getElementById('lightbox').classList.remove('active');
-}
-document.getElementById('lightbox').addEventListener('click', (e) => {
-  if (e.target === e.currentTarget) closeLightbox();
-});
-document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeLightbox(); });
-
-</script>
+  </script>
 </body>
+
 </html>

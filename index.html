@@ -43,9 +43,11 @@
     </ul>
   </nav>
 
+  <!-- BACKGROUND CANVAS -->
+  <canvas id="bg-canvas"></canvas>
+
   <!-- HERO -->
   <section id="hero">
-    <canvas id="hero-canvas"></canvas>
     <div class="hero-bg-ring"></div>
     <div class="hero-bg-ring"></div>
     <div class="hero-bg-ring"></div>
@@ -451,8 +453,7 @@
   <script type="module">
     import { Renderer, Program, Mesh, Triangle, Vec2 } from 'https://cdn.jsdelivr.net/npm/ogl@0.0.117/src/index.mjs';
 
-    const canvas = document.getElementById('hero-canvas');
-    const parent = document.getElementById('hero');
+    const canvas = document.getElementById('bg-canvas');
 
     const vertex = `
     attribute vec2 position;
@@ -561,8 +562,8 @@
     const mesh = new Mesh(gl, { geometry, program });
 
     const resize = () => {
-      const w = parent.clientWidth;
-      const h = parent.clientHeight;
+      const w = window.innerWidth;
+      const h = window.innerHeight;
       renderer.setSize(w * resolutionScale, h * resolutionScale);
       program.uniforms.uResolution.value.set(w, h);
     };
